@@ -15,14 +15,14 @@ export default function Hero() {
 
           <div className="hero-actions">
 
-             <a
-              href="/curriculo-amanda.pdf"
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-primary"
-            >
-              Baixar CV
-            </a>
+        <a
+            href="/portfolio-amanda/curriculo.pdf"
+            download="Amanda-Ferreira-Curriculo.pdf"
+            className="btn btn-primary"
+          >
+            Baixar CV
+          </a>
+
 
             <a
               href="https://github.com/amandamferreira"
