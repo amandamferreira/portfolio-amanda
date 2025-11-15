@@ -4,10 +4,9 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-wrapper">
-        
-        {/* BLOCO DO TEXTO */}
+        {/* TEXTO */}
         <div className="hero-text">
-          <p className="hero-tag">Olá, eu sou a Amanda!</p>
+          <p className="hero-tag">Olá, eu sou a Amanda de Mello Ferreira!</p>
           <h1>Desenvolvedora Full-Stack em formação</h1>
           <p className="hero-subtitle">
             Estudante do curso Técnico em Informática no CIMOL, focada em criar aplicações web
@@ -15,11 +14,21 @@ export default function Hero() {
           </p>
 
           <div className="hero-actions">
+
+             <a
+              href="/curriculo-amanda.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
+              Baixar CV
+            </a>
+
             <a
               href="https://github.com/amandamferreira"
               target="_blank"
               rel="noreferrer"
-              className="btn btn-primary"
+              className="btn btn-outline"
             >
               Ver GitHub
             </a>
@@ -31,13 +40,14 @@ export default function Hero() {
             >
               Ver LinkedIn
             </a>
+
             <a href="#projetos" className="btn btn-text">
               Ver projetos ↓
             </a>
           </div>
         </div>
 
-        {/* BLOCO DA FOTO */}
+        {/* FOTO */}
         <div className="hero-photo-container">
           <img src={minhaFoto} alt="Foto de Amanda" className="hero-photo" />
         </div>

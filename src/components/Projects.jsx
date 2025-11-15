@@ -5,17 +5,16 @@ const projects = [
       'Plataforma de orientação profissional com IA, ajudando jovens a refletirem sobre carreira por meio de um teste vocacional inteligente.',
     tags: ['React', 'Vite', 'Firebase Auth', 'Firestore', 'Flask', 'OpenAI'],
     liveUrl: 'https://vocationaltest.com.br',
-    repoUrl: 'https://github.com/amandamferreira/Vocational-Test',
+    repoUrl: 'https://github.com/amandamferreira/Vocational-Test', // ou seu fork
   },
- {
-  name: 'MentorHelp',
-  description:
-    'Plataforma de mentorias rápidas com videochamadas, conectando mentores e mentorados com autenticação e gerenciamento pelo Firebase.',
-  tags: ['React', 'Firebase', 'Firestore', 'Jitsi Meet'],
-  liveUrl: 'https://mentor-help-amber.vercel.app/',
-  repoUrl: 'https://github.com/amandamferreira/MentorHelp',
-},
-
+  {
+    name: 'MentorHelp',
+    description:
+      'Plataforma de mentorias rápidas com videochamadas, conectando mentores e mentorados com autenticação e gerenciamento pelo Firebase.',
+    tags: ['React', 'Firebase', 'Firestore', 'Jitsi Meet'],
+    liveUrl: 'https://mentor-help-amber.vercel.app/',
+    repoUrl: 'https://github.com/amandamferreira/MentorHelp',
+  },
 ];
 
 export default function Projects() {
