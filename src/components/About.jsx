@@ -14,6 +14,7 @@ export default function About() {
           Firestore e MySQL. Meu objetivo é conquistar um estágio em desenvolvimento
           full-stack e continuar evoluindo tanto tecnicamente quanto profissionalmente.
         </p>
+        
       </div>
     </section>
   );
