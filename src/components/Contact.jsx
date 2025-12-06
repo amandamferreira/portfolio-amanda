@@ -8,7 +8,7 @@ export default function Contact() {
           projetos, pode falar comigo por aqui:
         </p>
 
-        <div className="contact-cards">
+        <div className="contact-grid">
           <a
             href="mailto:euamandaferreira7@gmail.com"
             className="contact-card"
@@ -35,6 +35,16 @@ export default function Contact() {
           >
             <span className="contact-label">GitHub</span>
             <span className="contact-value">@amandamferreira</span>
+          </a>
+
+          <a
+            href="https://wa.me/5551998911577"
+            target="_blank"
+            rel="noreferrer"
+            className="contact-card"
+          >
+            <span className="contact-label">WhatsApp</span>
+            <span className="contact-value">(51) 99891-1577</span>
           </a>
         </div>
       </div>

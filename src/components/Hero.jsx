@@ -16,7 +16,7 @@ export default function Hero() {
           <div className="hero-actions">
 
             <a
-              href="/curriculo-amanda.pdf"
+              href="amanda-cv.pdf"
               download="Amanda-Ferreira-Curriculo.pdf"
               className="btn btn-primary"
             >
